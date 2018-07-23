@@ -39,7 +39,7 @@ int main(int argc, char** argv) {
         return (EXIT_FAILURE);
     }
     
-    printf("The number of OpenCL devices available: %d\n", num_devices);
+    printf("The number of OpenCL devices available: %u\n", num_devices);
     
     //cl_device_id device = devices[0];
     
